@@ -1,12 +1,14 @@
 {
-  "name": "@claude-agents/nextjs-expert-engineer",
-  "version": "2.1.0",
+  "name": "nextjs-expert-engineer",
+  "version": "2.1.1",
   "description": "Expert Next.js development agent with comprehensive audit capabilities for Next.js 15+ applications",
   "main": ".claude/agents/nextjs-expert-engineer.md",
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0",
     "validate": "node scripts/validate-agent.js",
-    "docs": "node scripts/generate-docs.js"
+    "docs": "node scripts/generate-docs.js",
+    "postinstall": "node scripts/setup-agent.js",
+    "setup": "node scripts/setup-agent.js"
   },
   "keywords": [
     "nextjs",
@@ -27,12 +29,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/claude-agents/nextjs-expert-engineer.git"
+    "url": "git+https://github.com/nextjs-expert/nextjs-expert-engineer.git"
   },
   "bugs": {
-    "url": "https://github.com/claude-agents/nextjs-expert-engineer/issues"
+    "url": "https://github.com/nextjs-expert/nextjs-expert-engineer/issues"
   },
-  "homepage": "https://github.com/claude-agents/nextjs-expert-engineer#readme",
+  "homepage": "https://github.com/nextjs-expert/nextjs-expert-engineer#readme",
   "engines": {
     "node": ">=18.0.0"
   },
@@ -44,7 +46,7 @@
     "CHANGELOG.md"
   ],
   "peerDependencies": {
-    "@anthropic-ai/claude-code": ">=1.0.0"
+    "claude-code": ">=1.0.0"
   },
   "devDependencies": {
     "fs-extra": "^11.2.0",

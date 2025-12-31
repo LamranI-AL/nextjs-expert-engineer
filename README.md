@@ -1,6 +1,6 @@
 # 🚀 NextJS Expert Engineer Agent
 
-[![npm version](https://badge.fury.io/js/%40claude-agents%2Fnextjs-expert-engineer.svg)](https://badge.fury.io/js/%40claude-agents%2Fnextjs-expert-engineer)
+[![npm version](https://badge.fury.io/js/nextjs-expert-engineer.svg)](https://badge.fury.io/js/nextjs-expert-engineer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Next.js](https://img.shields.io/badge/Next.js-15+-black?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue?logo=typescript)](https://www.typescriptlang.org/)
@@ -38,21 +38,27 @@ Expert Next.js development agent with comprehensive audit capabilities for Next.
 
 ## 🚀 Installation
 
-### NPM Installation
+### ⚡ **Auto-Setup** (Recommandé)
 ```bash
-npm install @claude-agents/nextjs-expert-engineer
+# Installation automatique - Prêt en 30 secondes !
+npm install nextjs-expert-engineer
+
+# ✅ Agent automatiquement configuré
+# ✅ Détecte votre projet Next.js
+# ✅ Optimise selon vos frameworks
+# ✅ Utilisation immédiate possible
 ```
 
-### Yarn Installation
+### Manuel Installation
 ```bash
-yarn add @claude-agents/nextjs-expert-engineer
+# NPM
+npm install nextjs-expert-engineer
+
+# Yarn
+yarn add nextjs-expert-engineer
 ```
 
-### Claude Code Integration
-```bash
-# Install directly in Claude Code
-claude-code install nextjs-expert-engineer
-```
+
 
 ## 📖 Usage
 
@@ -108,7 +114,7 @@ Help me implement Server Actions for form handling with proper validation and er
 // .claude/agents.json
 {
   "agents": [
-    "@claude-agents/nextjs-expert-engineer"
+    "nextjs-expert-engineer"
   ]
 }
 ```
@@ -153,7 +159,7 @@ export CLAUDE_AGENT_LEVEL=expert
 
 ### Local Development
 ```bash
-git clone https://github.com/claude-agents/nextjs-expert-engineer.git
+git clone https://github.com/nextjs-expert/nextjs-expert-engineer.git
 cd nextjs-expert-engineer
 npm install
 npm run validate
@@ -193,7 +199,7 @@ npm run validate
 ## 🤝 Support
 
 - **Documentation**: [Full Documentation](https://nextjs-expert-agent.dev/docs)
-- **Issues**: [GitHub Issues](https://github.com/claude-agents/nextjs-expert-engineer/issues)
+- **Issues**: [GitHub Issues](https://github.com/nextjs-expert/nextjs-expert-engineer/issues)
 - **Discord**: [Community Discord](https://discord.gg/nextjs-expert)
 - **Email**: support@nextjs-expert.dev
 
